@@ -7,7 +7,8 @@ Process text, including tokenizing and representing sentences as vectors and app
 [Language Detection](https://www.kaggle.com/basilb2s/language-detection) It's a small language detection dataset. This dataset consists of text details for 17 different languages
 
 ## Results
-- All models achieved high accuracy even when using one convolution layer instead of LSTM or GRU, But GRU achieved highest accuracy 99% training accuracy 95% validation accuracy.
+- All models achieved high accuracy even when using one convolution layer instead of LSTM or GRU, But GRU achieved highest accuracy 99% training accuracy 94% validation accuracy.
+- Using convlution layer achieved high accuracy about 95% validation accuracy  
 - Using fewer embedding dimensions makes the model reach high accuracy faster but in Embedding Projector alot of words grouped with other languages.
 
 
