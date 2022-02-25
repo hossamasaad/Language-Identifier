@@ -1,7 +1,7 @@
 # Language Identifier
 
 ## What is this ?
-Process text, including tokenizing and representing sentences as vectors and applying some concepts like RNN, LSTM and GRU to create a classifier can detect the language in which a sentence is written from among 17 languages.
+The goal of this project is to create a model that is able to predict a given sentence language through text processing,  including tokenizing and representation of sentences as vectors and applying concepts such as RNN, LSTM and GRU to create the classifier that can detect the language among 17 languages.
 
 ## Dataset
 [Language Detection](https://www.kaggle.com/basilb2s/language-detection) It's a small language detection dataset. This dataset consists of text details for 17 different languages
