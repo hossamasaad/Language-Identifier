@@ -12,6 +12,63 @@ The goal of this project is to create a model that is able to predict a given se
 
 ## Project Structure
 ```
+.
+├── LICENSE
+├── requirements.txt
+├── README.md
+├── data
+│   ├── processed
+│   │   ├── labels.pkl
+│   │   ├── train_labels.pkl
+│   │   ├── train_padded.pkl
+│   │   ├── valid_labels.pkl
+│   │   └── valid_padded.pkl
+│   └── raw
+│       └── Language Detection.csv
+├── models
+│   ├── meta.tsv
+│   ├── vecs.tsv
+│   ├── best_conv.pkl
+│   ├── best_gru.pkl
+│   ├── best_lstm.pkl
+│   ├── conv_history.pkl
+│   ├── gru_history.pkl
+│   └── lstm_history.pkl
+├── notebooks
+│   └── Language Identifier.ipynb
+├── reports
+│   └── figures
+│       ├── conv1d_accuracy.png
+│       ├── conv1d_loss.png
+│       ├── conv_accuracy.png
+│       ├── conv_confusion_matrix.png
+│       ├── conv_loss.png
+│       ├── gru_accuracy.png
+│       ├── gru_confusion_matrix.png
+│       ├── gru_loss.png
+│       ├── langauges_count.png
+│       ├── lanuages_pie.png
+│       ├── lstm_accuracy.png
+│       ├── lstm_confusion_matrix.png
+│       └── lstm_loss.png
+├── src
+│   ├── __init__.py
+│   ├── features
+│   ├── data
+│   │   ├── __init__.py
+│   │   ├── cleaner.py
+│   │   └── explore.py
+│   ├── models
+│   │   ├── __init__.py
+│   │   ├── gru.py
+│   │   ├── lstm.py
+│   │   ├── conv1d.py
+│   │   └── gridsearch.py
+│   └── visualization
+│       ├── __init__.py
+│       ├── graphs.py
+│       └── visualize.py
+└── tests
 ```
 
 ## Model Archtichtures
