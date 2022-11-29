@@ -8,6 +8,13 @@ from sklearn.preprocessing import LabelEncoder
 class Graphs:
 
     def __init__(self, model, history) -> None:
+        """
+        Construct Graph
+        
+        Args:
+            model: model to make prediction
+            history: model history
+        """
         self.model = model
         self.history = history
         self.labels = joblib.load('/Language-Identifier/data/processed/labels.pkl')
@@ -18,8 +25,8 @@ class Graphs:
     def accuracy(self, save_fig = None):
         """
         Plot accuracy graph
-        Arguments:
-            model: model history
+        Args:
+            save_fig: path to save fig 
         """
 
         plt.plot(self.history.history['accuracy'])
@@ -35,8 +42,8 @@ class Graphs:
     def loss(self, save_fig = None):
         """
         Plot loss graph
-        Arguments:
-            History: model history
+        Args:
+            save_fig: path to save fig 
         """
         plt.plot(self.history.history['loss'])
         plt.plot(self.history.history['val_loss'])
@@ -51,6 +58,9 @@ class Graphs:
     def confusion_matrix(self, save_fig=None):
         """
         Show the confusion matrix
+        
+        Args:
+            save_fig: path to save fig 
         """
         
         y = np.argmax(self.valid_labels, axis=1)                  # real labels    

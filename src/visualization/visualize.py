@@ -4,9 +4,20 @@ import matplotlib.pyplot as plt
 class Visualizer:
 
     def __init__(self, data) -> None:
+        """
+        Create visualizer to visualize some data
+
+        Args:
+            data: data to visualize it
+        """
         self.data = data
 
     def show_langauges_counts(self, save_fig = False):
+        """
+        Show bar plot to show langauge counts
+        Args:
+            save_fig: path to save fig 
+        """
         plt.figure(figsize=(20,14))
 
         total= float(len(self.data['Language']))
@@ -28,7 +39,11 @@ class Visualizer:
         plt.show()
     
     def show_percentage(self, save_fig=False):
-
+        """
+        Show pie plot to show langauge percentages
+        Args:
+            save_fig: path to save fig 
+        """
         plt.figure(figsize=(10,10))
         language= self.data['Language'].value_counts().reset_index()
         
