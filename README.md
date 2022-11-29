@@ -10,7 +10,7 @@ The goal of this project is to create a model that is able to predict a given se
 ## Dataset
 [Language Detection](https://www.kaggle.com/basilb2s/language-detection) It's a small language detection dataset. This dataset consists of text details for 16 different languages
 <br />
-<img src="https://github.com/hossamasaad/Language-Identifier/blob/main/reports/figures/langauges_count.png" width="490"> <img src="https://github.com/hossamasaad/Language-Identifier/blob/main/reports/figures/lanuages_pie.png" width="340">
+<img src="https://github.com/hossamasaad/Language-Identifier/blob/main/reports/figures/langauges_count.png" width="470"> <img src="https://github.com/hossamasaad/Language-Identifier/blob/main/reports/figures/lanuages_pie.png" width="335">
 
 
 ## Project Structure
