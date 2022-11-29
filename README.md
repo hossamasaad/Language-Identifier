@@ -9,7 +9,7 @@ The goal of this project is to create a model that is able to predict a given se
 
 ## Dataset
 [Language Detection](https://www.kaggle.com/basilb2s/language-detection) It's a small language detection dataset. This dataset consists of text details for 16 different languages
-<img src="https://github.com/hossamasaad/Language-Identifier/blob/main/reports/figures/langauges_count.png" width="590"> <img src="https://github.com/hossamasaad/Language-Identifier/blob/main/reports/figures/lanuages_pie.png" width="415">
+<img src="https://github.com/hossamasaad/Language-Identifier/blob/main/reports/figures/langauges_count.png" width="490"> <img src="https://github.com/hossamasaad/Language-Identifier/blob/main/reports/figures/lanuages_pie.png" width="315">
 
 
 ## Project Structure
@@ -92,7 +92,7 @@ The goal of this project is to create a model that is able to predict a given se
 ![image](https://user-images.githubusercontent.com/40635600/154851317-3983482c-8d54-41b2-8240-ab300c5c75f9.png)
 
 ### LSTM Accuracy and Loss
-<img src="https://github.com/hossamasaad/Language-Identifier/blob/main/reports/figures/lstm_accuracy.png" width="500"> <img src="https://github.com/hossamasaad/Language-Identifier/blob/main/reports/figures/lstm_loss.png" width="500">
+<img src="https://github.com/hossamasaad/Language-Identifier/blob/main/reports/figures/lstm_accuracy.png" width="350"> <img src="https://github.com/hossamasaad/Language-Identifier/blob/main/reports/figures/lstm_loss.png" width="350">
 
 
 
