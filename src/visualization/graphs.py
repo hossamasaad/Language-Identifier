@@ -10,9 +10,9 @@ class Graphs:
     def __init__(self, model, history) -> None:
         self.model = model
         self.history = history
-        self.labels = joblib.load('/home/hossamasaad/Desktop/Workspace/Langauge Identifier/Language-Identifier/data/processed/labels.pkl')
-        self.valid_padded = joblib.load('/home/hossamasaad/Desktop/Workspace/Langauge Identifier/Language-Identifier/data/processed/valid_padded.pkl')
-        self.valid_labels = joblib.load('/home/hossamasaad/Desktop/Workspace/Langauge Identifier/Language-Identifier/data/processed/valid_labels.pkl')
+        self.labels = joblib.load('/Language-Identifier/data/processed/labels.pkl')
+        self.valid_padded = joblib.load('/Language-Identifier/data/processed/valid_padded.pkl')
+        self.valid_labels = joblib.load('/Language-Identifier/data/processed/valid_labels.pkl')
 
     
     def accuracy(self, save_fig = None):
@@ -28,7 +28,7 @@ class Graphs:
         plt.ylabel('Accuracy')
         plt.legend(['accuracy', 'val_accuracy'])
         if save_fig:
-            plt.savefig('/home/hossamasaad/Desktop/Workspace/Langauge Identifier/Language-Identifier/reports/figures/{}.png'.format(save_fig))
+            plt.savefig('/Language-Identifier/reports/figures/{}.png'.format(save_fig))
         
         plt.show()
 
@@ -44,7 +44,7 @@ class Graphs:
         plt.ylabel('Loss')
         plt.legend(['loss', 'val_loss'])
         if save_fig:
-            plt.savefig('/home/hossamasaad/Desktop/Workspace/Langauge Identifier/Language-Identifier/reports/figures/{}.png'.format(save_fig))
+            plt.savefig('/Language-Identifier/reports/figures/{}.png'.format(save_fig))
         
         plt.show()
     
@@ -75,6 +75,6 @@ class Graphs:
         plt.xticks(loc, l)
         plt.yticks(loc, l)
         if save_fig:
-            plt.savefig('/home/hossamasaad/Desktop/Workspace/Langauge Identifier/Language-Identifier/reports/figures/{}.png'.format(save_fig))
+            plt.savefig('/Language-Identifier/reports/figures/{}.png'.format(save_fig))
         
         plt.show()

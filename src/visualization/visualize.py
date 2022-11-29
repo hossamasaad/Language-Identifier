@@ -23,7 +23,7 @@ class Visualizer:
         plt.ylabel("Count", fontsize=20)
         plt.xticks(size= 18, rotation=90) 
         if save_fig:
-            plt.savefig('/home/hossamasaad/Desktop/Workspace/Language Identifier/reports/figures/langauges_count.png')
+            plt.savefig('Language-Identifier/reports/figures/langauges_count.png')
         
         plt.show()
     
@@ -38,5 +38,6 @@ class Visualizer:
                 textprops={'fontsize': 14})
             
         if save_fig:
-            plt.savefig("/home/hossamasaad/Desktop/Workspace/Language Identifier/reports/figures/lanuages_pie.png")
+            plt.savefig("Language-Identifier/reports/figures/lanuages_pie.png")
+            
         plt.show()
