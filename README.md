@@ -72,6 +72,12 @@ The goal of this project is to create a model that is able to predict a given se
 │       ├── graphs.py
 │       └── visualize.py
 └── tests
+    ├── conftest.py
+    ├── pytest.ini
+    ├── test_data.csv
+    ├── test_data.py
+    └── test_models.py
+
 ```
 
 ## Model Archtichtures
